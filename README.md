@@ -1,39 +1,42 @@
 # 🌱 Agribot – Crop Prediction System
 
-Agribot is a machine learning-based crop prediction and recommendation system designed to help farmers identify suitable crops based on soil and environmental conditions.
+Agribot is a machine learning-based crop prediction and recommendation system built using Python and Streamlit. It analyzes soil and environmental conditions to recommend a suitable crop.
 
 ## 🚀 Features
 
-- 🌱 Predicts suitable crops based on input parameters
-- 🤖 Machine learning-based crop prediction
-- 📊 User-friendly Streamlit interface
-- 🌾 Supports data-driven agricultural decisions
+- 🌱 Crop prediction using machine learning
+- 🤖 Random Forest classification model
+- 🌾 Uses soil and environmental parameters
+- 📊 Interactive Streamlit web interface
+- 💡 Data-driven crop recommendation
 
 ## 🛠️ Technologies Used
 
 - Python
-- Machine Learning
-- Pandas
-- NumPy
-- Scikit-learn
 - Streamlit
+- Pandas
+- Scikit-learn
+- Machine Learning
 
-## 📌 Project Overview
+## 📋 Input Parameters
 
-The Agribot system takes agricultural and environmental parameters as input and uses a trained machine learning model to recommend a suitable crop.
+The application uses the following agricultural parameters:
 
-The project demonstrates the application of machine learning in agriculture and aims to make crop selection more data-driven and accessible.
+- Nitrogen (N)
+- Phosphorus (P)
+- Potassium (K)
+- Temperature
+- Humidity
+- Soil pH
+- Rainfall
 
 ## 📸 Application Preview
 
-Add your application screenshot here.
+The Agribot application provides an interactive interface where users can enter agricultural conditions and receive a recommended crop.
 
-## 💻 How to Run
+## ⚙️ Installation
 
-1. Clone the repository.
-2. Install the required Python libraries.
-3. Run the Streamlit application.
+Clone the repository:
 
 ```bash
-pip install -r requirements.txt
-streamlit run agribot.py
+git clone https://github.com/YOUR-USERNAME/crop-prediction-agribot.git
