@@ -33,6 +33,7 @@ The application uses the following agricultural parameters:
 ## 📸 Application Preview
 
 The Agribot application provides an interactive interface where users can enter agricultural conditions and receive a recommended crop.
+![Agribot Prediction](predictions.png)
 
 ## ⚙️ Installation
 
