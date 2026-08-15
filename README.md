@@ -39,4 +39,4 @@ The Agribot application provides an interactive interface where users can enter 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/crop-prediction-agribot.git
+git clone https://github.com/snehab0603/crop-prediction-agribot.git
